@@ -1,55 +1,40 @@
 # Instalasi Laravel
 
-Ini adalah panduan singkat untuk menginstal Laravel di sistem Anda.
+Ini adalah panduan singkat untuk menginstal Laravel, sebuah framework PHP yang powerful dan elegan.
 
 ## Persyaratan
 
-Sebelum Anda mulai, pastikan sistem Anda memenuhi persyaratan berikut:
+Sebelum Anda mulai, pastikan sistem Anda memenuhi persyaratan minimum untuk menjalankan Laravel:
 
-- PHP versi 7.4 atau lebih tinggi
+- PHP versi 7.3 atau yang lebih baru
 - Composer
-- Node.js dan npm (opsional untuk pengembangan frontend)
+- Node.js dan NPM
+- Database (MySQL, PostgreSQL, SQLite, atau SQL Server)
 
 ## Langkah 1: Instalasi Composer
 
-1. Kunjungi [https://getcomposer.org/download/](https://getcomposer.org/download/) untuk mengunduh Composer.
-2. Ikuti petunjuk instalasi yang sesuai dengan sistem operasi Anda.
+1. Kunjungi [getcomposer.org](https://getcomposer.org/) dan ikuti petunjuk instalasi untuk sistem operasi Anda.
 
 ## Langkah 2: Instalasi Laravel
 
-1. Buka terminal atau command prompt.
-2. Pindah ke direktori tempat Anda ingin menginstal Laravel.
-3. Jalankan perintah berikut untuk menginstal Laravel menggunakan Composer:
+1. Setelah Composer terinstal, buka terminal atau command prompt dan jalankan perintah berikut untuk menginstal Laravel menggunakan Composer:
     ```
-    composer create-project --prefer-dist laravel/laravel nama-proyek
-    ```
-    Ganti `nama-proyek` dengan nama yang Anda inginkan untuk proyek Laravel Anda.
-
-## Langkah 3: Konfigurasi
-
-1. Pindah ke direktori proyek Laravel Anda.
-2. Salin file `.env.example` menjadi `.env`.
-3. Jalankan perintah berikut untuk menghasilkan kunci aplikasi:
-    ```
-    php artisan key:generate
+    composer global require laravel/installer
     ```
 
-## Langkah 4: Jalankan Server Lokal
+## Langkah 3: Membuat Proyek Laravel Baru
 
-1. Jalankan server lokal menggunakan perintah:
+1. Setelah Laravel terinstal, buka terminal atau command prompt dan navigasikan ke direktori tempat Anda ingin membuat proyek Laravel baru.
+2. Jalankan perintah berikut untuk membuat proyek baru:
     ```
-    php artisan serve
+    laravel new nama-proyek
     ```
-2. Buka browser dan akses `http://localhost:8000` untuk melihat aplikasi Laravel Anda.
+    Ganti `nama-proyek` dengan nama yang Anda inginkan untuk proyek Anda.
 
-## Langkah 5: Pengembangan Frontend (Opsional)
+## Dokumentasi Resmi Laravel
 
-Jika Anda ingin mengembangkan frontend menggunakan Vue.js, React, atau alat frontend lainnya, Anda dapat menginstal alat frontend yang diperlukan dengan menjalankan perintah berikut:
-    ```
-    npm install
-    ```
-    Anda juga dapat menggunakan Mix untuk mengompilasi aset frontend Anda.
+Untuk informasi lebih lanjut tentang menggunakan Laravel, silakan kunjungi [Dokumentasi Resmi Laravel](https://laravel.com/docs).
 
 ---
 
-Dengan mengikuti panduan ini, Anda sekarang telah berhasil menginstal Laravel dan siap untuk mulai mengembangkan aplikasi web yang luar biasa dengan kerangka kerja ini.
+Dengan mengikuti panduan ini, Anda sekarang telah menginstal Laravel dan siap untuk memulai pengembangan web menggunakan framework PHP yang powerful ini. Selamat mengembangkan!
