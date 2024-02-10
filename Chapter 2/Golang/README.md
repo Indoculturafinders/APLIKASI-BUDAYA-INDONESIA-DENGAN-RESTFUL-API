@@ -58,12 +58,8 @@ Sebelum Anda memulai proses instalasi, pastikan sistem Anda memenuhi persyaratan
 
 Jika Anda ingin berkontribusi pada panduan ini, silakan buat cabang baru dan ajukan permintaan tarik (pull request).
 
-## Lisensi
-
-Panduan ini dilisensikan di bawah Lisensi MIT. Lihat file `LICENSE` untuk detailnya.
-
 ## Kontak
 
-Jika Anda memiliki pertanyaan atau kendala selama proses instalasi, jangan ragu untuk menghubungi kami melalui [email@example.com](mailto:email@example.com).
+Jika Anda memiliki pertanyaan atau kendala selama proses instalasi, jangan ragu untuk menghubungi kami melalui [sini](mailto:ilmanaqilaa2@gmail.com).
 
 Happy coding!
