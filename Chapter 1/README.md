@@ -20,15 +20,56 @@ HTTPS (Hypertext Transfer Protocol Secure) adalah versi aman dari HTTP yang meng
 
 ### HTML (Hypertext Markup Language)
 
-HTML adalah bahasa markah yang digunakan untuk membuat struktur dasar halaman web. Ini membentuk kerangka konten pada suatu halaman.
+HTML adalah bahasa markah yang digunakan untuk membuat struktur dasar halaman web. Ini membentuk kerangka konten pada suatu halaman. Contoh penerapan (index.html):
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contoh HTML CSS JS Sederhana</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="text">Hello, World!</div>
+      <button onclick="changeText()">Ubah Teks</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
 
 ### CSS (Cascading Style Sheets)
 
-CSS adalah bahasa yang digunakan untuk mengatur tata letak dan penampilan visual halaman web. Ini memungkinkan pemisahan antara struktur dan tampilan halaman.
+CSS adalah bahasa yang digunakan untuk mengatur tata letak dan penampilan visual halaman web. Ini memungkinkan pemisahan antara struktur dan tampilan halaman. Contoh penerapan (style.css):
+```css
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#text {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+```
 
 ### JavaScript
 
-JavaScript adalah bahasa pemrograman utama di sisi klien yang memungkinkan interaktivitas pada halaman web.
+JavaScript adalah bahasa pemrograman utama di sisi klien yang memungkinkan interaktivitas pada halaman web. Contoh penerapan (script.js):
+```javascript
+function changeText() {
+  var text = document.getElementById("text");
+  text.innerHTML = "Teks sudah berubah!";
+}
+```
 
 ## Kontak
 
