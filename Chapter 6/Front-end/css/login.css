@@ -1,0 +1,57 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  :root {
+    --shadowDark: #f1f0f8;
+    --background: #14b2eb;
+    /* --shadowLight: #e9eff2; */
+  }
+  
+  body {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ), url('https://unsplash.it/1200/900?random') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-body {
+    justify-content: center;
+  }
+  
+  .login {
+    width: 45%;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 4px 4px 10px var(--shadowDark), -4px -4px 10px var(--shadowLight);
+    background-color: #151414;
+    border: #f1f0f8;
+  }
+
+  .login-icon{
+    border-radius: 50px;
+    width: auto;
+    height: auto;
+  }
+  
+  input {
+    background: var(--shadowDark) !important;
+  }
+  
+  .field{
+    margin-top: 10px;
+  }
+
+
+
+  @media screen and (max-width: 450px) {
+    .login {
+      width: 90%;
+      }
+  }

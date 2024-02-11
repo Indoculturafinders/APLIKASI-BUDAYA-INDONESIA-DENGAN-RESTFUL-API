@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>INDONESIA CULTURAL FINDERS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.4/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+  </head>
+
+  <body>
+    <section class="hero is-fullheight">
+      <div class="hero-body has-text-centered">
+        <div class="login">
+          <img src="img/p3.jpeg" alt="Logo">
+            <div class="field">
+              <div class="control">
+                <input id="username" name="username" class="input is-medium is-rounded" type="text" placeholder="Input Your Username" autocomplete="username" required />
+              </div>
+            </div>
+            <div class="field">
+              <div class="control">
+                <input id="password" name="password" class="input is-medium is-rounded" type="password" placeholder="Create Your Password" autocomplete="current-password" required />
+              </div>
+            </div>
+            <br />
+            <button class="button is-block is-fullwidth is-primary is-medium is-rounded" type="submit" onclick="Registrasi()">
+              SignUp
+            </button>
+            <div style="visibility: hidden;" class="container">
+              <div class="notification is-primary" id="pesan"></div>
+             </div>
+          <br>
+          <nav class="level">
+            <div class="level-item has-text-centered">
+              <div>
+                <a href="index.html" style="color: white;">Already have Account?</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="https://cdn.jsdelivr.net/gh/indoculturafinders/indoculturafinders-js@master/post.js"></script>
+  </body>
+
+</html>
